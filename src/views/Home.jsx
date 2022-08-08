@@ -1,12 +1,7 @@
-import React from 'react'
-import Header from '../ui/Header'
-import Footer from '../ui/Footer'
+import React from "react";
+import Header from "../components/ui/Header";
+import Footer from "../components/ui/Footer";
 
 export default function Home() {
-  return (
-    <div>
-        
-    Renderizando home
-    </div>
-  )
+  return <div>Renderizando home</div>;
 }
