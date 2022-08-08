@@ -5,8 +5,11 @@ import Header from "./components/ui/Header";
 import Footer from "./components/ui/Footer";
 import { Routes, Route } from "react-router-dom";
 import Personas from "./views/Personas";
+import { selectIsLoged } from "./redux/login/loginSlice";
+
 
 function App() {
+
   return (
     <div className="App">
       <Header />

@@ -16,6 +16,7 @@ export async function loggin(user) {
       return response.status;
     })
     .catch((error) => {
-      throw Error(error || "ERROR AL PROCESAR LA SOLICITUD");
+      return error.response.status;
+      //throw Error(error || "ERROR AL PROCESAR LA SOLICITUD");
     });
 }
