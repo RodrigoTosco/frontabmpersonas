@@ -41,6 +41,7 @@
   }
   
   .btn-link {
+    margin: 0.25rem;
     color: #0072bb !important;
     background-color: #fff !important;
     border: 1px solid #dee2e6 !important;
