@@ -18,13 +18,13 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <>
       { isLoged && ( 
         <div>
           <h1>Bienvenido {userName}</h1>
           <Button onClick={onClickIrPersonas}>Ir a tabla de Personas</Button>
         </div>
       )}
-    </div>
+    </>
   );
 }

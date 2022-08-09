@@ -1,9 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import './index.css';
+import "./index.css";
 import FormDialog from "../Dialog";
-
 
 export default function Header() {
   const navigate = useNavigate();
@@ -17,9 +16,8 @@ export default function Header() {
     setAbrir(false);
   };
 
-
   return (
-/*     <div>
+    /*     <div>
 
     
       <div>
@@ -33,8 +31,7 @@ export default function Header() {
     </div> */
 
     <nav className="navbar">
-    <div className="container">
-      <div>
+      <div className="container">
         <div className="nav-header">
           <a href="" className="navbar-brand">
             <img
@@ -48,7 +45,11 @@ export default function Header() {
         <div className="navbar-collapse">
           <div className="mr-auto"></div>
           <div className="navbar-nav">
-            <button type="button" className="btn-link" onClick={handleClickOpen}>
+            <button
+              type="button"
+              className="btn-link"
+              onClick={handleClickOpen}
+            >
               Ingresar
             </button>
             <button type="button" className="btn-link">
@@ -57,7 +58,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
   );
 }
